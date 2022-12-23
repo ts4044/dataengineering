@@ -1,0 +1,1236 @@
+2022-12-16 00:52:03,138:INFO:Initializing load_model()
+2022-12-16 00:52:03,138:INFO:load_model(model_name=./models/EURUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 00:52:03,151:INFO:Initializing load_model()
+2022-12-16 00:52:03,152:INFO:load_model(model_name=./models/GBPUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 00:52:03,161:INFO:Initializing load_model()
+2022-12-16 00:52:03,161:INFO:load_model(model_name=./models/USDCAD, platform=None, authentication=None, verbose=True)
+2022-12-16 00:52:03,171:INFO:Initializing load_model()
+2022-12-16 00:52:03,171:INFO:load_model(model_name=./models/USDCHF, platform=None, authentication=None, verbose=True)
+2022-12-16 00:52:03,178:INFO:Initializing load_model()
+2022-12-16 00:52:03,179:INFO:load_model(model_name=./models/USDHKD, platform=None, authentication=None, verbose=True)
+2022-12-16 00:52:03,186:INFO:Initializing load_model()
+2022-12-16 00:52:03,186:INFO:load_model(model_name=./models/USDAUD, platform=None, authentication=None, verbose=True)
+2022-12-16 00:52:03,193:INFO:Initializing load_model()
+2022-12-16 00:52:03,193:INFO:load_model(model_name=./models/USDNZD, platform=None, authentication=None, verbose=True)
+2022-12-16 00:52:03,200:INFO:Initializing load_model()
+2022-12-16 00:52:03,200:INFO:load_model(model_name=./models/USDSGD, platform=None, authentication=None, verbose=True)
+2022-12-16 14:55:43,381:INFO:Initializing load_model()
+2022-12-16 14:55:43,382:INFO:load_model(model_name=./models/EURUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 14:55:43,391:INFO:Initializing load_model()
+2022-12-16 14:55:43,391:INFO:load_model(model_name=./models/GBPUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 14:55:43,398:INFO:Initializing load_model()
+2022-12-16 14:55:43,399:INFO:load_model(model_name=./models/USDCAD, platform=None, authentication=None, verbose=True)
+2022-12-16 14:55:43,407:INFO:Initializing load_model()
+2022-12-16 14:55:43,407:INFO:load_model(model_name=./models/USDCHF, platform=None, authentication=None, verbose=True)
+2022-12-16 14:55:43,414:INFO:Initializing load_model()
+2022-12-16 14:55:43,414:INFO:load_model(model_name=./models/USDHKD, platform=None, authentication=None, verbose=True)
+2022-12-16 14:55:43,421:INFO:Initializing load_model()
+2022-12-16 14:55:43,422:INFO:load_model(model_name=./models/USDAUD, platform=None, authentication=None, verbose=True)
+2022-12-16 14:55:43,429:INFO:Initializing load_model()
+2022-12-16 14:55:43,429:INFO:load_model(model_name=./models/USDNZD, platform=None, authentication=None, verbose=True)
+2022-12-16 14:55:43,436:INFO:Initializing load_model()
+2022-12-16 14:55:43,436:INFO:load_model(model_name=./models/USDSGD, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,071:INFO:Initializing load_model()
+2022-12-16 16:37:53,077:INFO:load_model(model_name=./models/EURUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,111:INFO:Initializing load_model()
+2022-12-16 16:37:53,111:INFO:load_model(model_name=./models/GBPUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,115:INFO:Initializing load_model()
+2022-12-16 16:37:53,115:INFO:load_model(model_name=./models/USDCAD, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,124:INFO:Initializing load_model()
+2022-12-16 16:37:53,125:INFO:load_model(model_name=./models/USDCHF, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,130:INFO:Initializing load_model()
+2022-12-16 16:37:53,130:INFO:load_model(model_name=./models/USDHKD, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,134:INFO:Initializing load_model()
+2022-12-16 16:37:53,134:INFO:load_model(model_name=./models/USDAUD, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,138:INFO:Initializing load_model()
+2022-12-16 16:37:53,138:INFO:load_model(model_name=./models/USDNZD, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,143:INFO:Initializing load_model()
+2022-12-16 16:37:53,143:INFO:load_model(model_name=./models/USDSGD, platform=None, authentication=None, verbose=True)
+2022-12-16 16:37:53,264:INFO:Initializing predict_model()
+2022-12-16 16:37:53,264:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ElasticNet(alpha=9.94, fit_intercept=False, l1_ratio=0.155,
+                            normalize=True, random_state=5621)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 16:37:53,264:INFO:Checking exceptions
+2022-12-16 16:37:53,264:INFO:Preloading libraries
+2022-12-16 16:37:53,519:INFO:Initializing predict_model()
+2022-12-16 16:37:53,519:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LassoLars(eps=1e-05, fit_intercept=False, normalize=False,
+                           random_state=7575)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 16:37:53,519:INFO:Checking exceptions
+2022-12-16 16:37:53,519:INFO:Preloading libraries
+2022-12-16 16:37:53,631:INFO:Initializing predict_model()
+2022-12-16 16:37:53,631:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(metric='euclidean', n_jobs=-1,
+                                     n_neighbors=8)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 16:37:53,632:INFO:Checking exceptions
+2022-12-16 16:37:53,632:INFO:Preloading libraries
+2022-12-16 16:37:53,861:INFO:Initializing predict_model()
+2022-12-16 16:37:53,861:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.0005, epsilon=1.1,
+                                fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 16:37:53,861:INFO:Checking exceptions
+2022-12-16 16:37:53,861:INFO:Preloading libraries
+2022-12-16 16:37:53,976:INFO:Initializing predict_model()
+2022-12-16 16:37:53,976:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(n_jobs=-1, n_neighbors=46)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 16:37:53,976:INFO:Checking exceptions
+2022-12-16 16:37:53,976:INFO:Preloading libraries
+2022-12-16 16:37:54,200:INFO:Initializing predict_model()
+2022-12-16 16:37:54,200:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('scaling', 'passthrough'), ('P_transform', 'passthrough'),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', HuberRegressor()]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 16:37:54,200:INFO:Checking exceptions
+2022-12-16 16:37:54,200:INFO:Preloading libraries
+2022-12-16 16:37:54,311:INFO:Initializing predict_model()
+2022-12-16 16:37:54,311:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 16:37:54,311:INFO:Checking exceptions
+2022-12-16 16:37:54,311:INFO:Preloading libraries
+2022-12-16 16:37:54,421:INFO:Initializing predict_model()
+2022-12-16 16:37:54,421:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1.4, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 16:37:54,422:INFO:Checking exceptions
+2022-12-16 16:37:54,422:INFO:Preloading libraries
+2022-12-16 17:52:39,455:INFO:Initializing load_model()
+2022-12-16 17:52:39,455:INFO:load_model(model_name=./models/EURUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 17:52:39,460:INFO:Initializing load_model()
+2022-12-16 17:52:39,460:INFO:load_model(model_name=./models/GBPUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 17:52:39,464:INFO:Initializing load_model()
+2022-12-16 17:52:39,464:INFO:load_model(model_name=./models/USDCAD, platform=None, authentication=None, verbose=True)
+2022-12-16 17:52:39,468:INFO:Initializing load_model()
+2022-12-16 17:52:39,468:INFO:load_model(model_name=./models/USDCHF, platform=None, authentication=None, verbose=True)
+2022-12-16 17:52:39,471:INFO:Initializing load_model()
+2022-12-16 17:52:39,471:INFO:load_model(model_name=./models/USDHKD, platform=None, authentication=None, verbose=True)
+2022-12-16 17:52:39,475:INFO:Initializing load_model()
+2022-12-16 17:52:39,476:INFO:load_model(model_name=./models/USDAUD, platform=None, authentication=None, verbose=True)
+2022-12-16 17:52:39,479:INFO:Initializing load_model()
+2022-12-16 17:52:39,479:INFO:load_model(model_name=./models/USDNZD, platform=None, authentication=None, verbose=True)
+2022-12-16 17:52:39,483:INFO:Initializing load_model()
+2022-12-16 17:52:39,483:INFO:load_model(model_name=./models/USDSGD, platform=None, authentication=None, verbose=True)
+2022-12-16 17:52:39,508:INFO:Initializing predict_model()
+2022-12-16 17:52:39,508:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ElasticNet(alpha=9.94, fit_intercept=False, l1_ratio=0.155,
+                            normalize=True, random_state=5621)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 17:52:39,508:INFO:Checking exceptions
+2022-12-16 17:52:39,509:INFO:Preloading libraries
+2022-12-16 17:52:39,631:INFO:Initializing predict_model()
+2022-12-16 17:52:39,631:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LassoLars(eps=1e-05, fit_intercept=False, normalize=False,
+                           random_state=7575)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 17:52:39,631:INFO:Checking exceptions
+2022-12-16 17:52:39,631:INFO:Preloading libraries
+2022-12-16 17:52:39,749:INFO:Initializing predict_model()
+2022-12-16 17:52:39,750:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(metric='euclidean', n_jobs=-1,
+                                     n_neighbors=8)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 17:52:39,750:INFO:Checking exceptions
+2022-12-16 17:52:39,750:INFO:Preloading libraries
+2022-12-16 17:52:39,992:INFO:Initializing predict_model()
+2022-12-16 17:52:39,992:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.0005, epsilon=1.1,
+                                fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 17:52:39,992:INFO:Checking exceptions
+2022-12-16 17:52:39,992:INFO:Preloading libraries
+2022-12-16 17:52:40,105:INFO:Initializing predict_model()
+2022-12-16 17:52:40,105:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(n_jobs=-1, n_neighbors=46)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 17:52:40,105:INFO:Checking exceptions
+2022-12-16 17:52:40,105:INFO:Preloading libraries
+2022-12-16 17:52:40,343:INFO:Initializing predict_model()
+2022-12-16 17:52:40,343:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('scaling', 'passthrough'), ('P_transform', 'passthrough'),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', HuberRegressor()]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 17:52:40,343:INFO:Checking exceptions
+2022-12-16 17:52:40,343:INFO:Preloading libraries
+2022-12-16 17:52:40,453:INFO:Initializing predict_model()
+2022-12-16 17:52:40,454:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 17:52:40,454:INFO:Checking exceptions
+2022-12-16 17:52:40,454:INFO:Preloading libraries
+2022-12-16 17:52:40,563:INFO:Initializing predict_model()
+2022-12-16 17:52:40,563:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1.4, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 17:52:40,564:INFO:Checking exceptions
+2022-12-16 17:52:40,564:INFO:Preloading libraries
+2022-12-16 19:07:03,558:INFO:Initializing load_model()
+2022-12-16 19:07:03,562:INFO:load_model(model_name=./models/EURUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 19:07:03,584:INFO:Initializing load_model()
+2022-12-16 19:07:03,584:INFO:load_model(model_name=./models/GBPUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 19:07:03,588:INFO:Initializing load_model()
+2022-12-16 19:07:03,588:INFO:load_model(model_name=./models/USDCAD, platform=None, authentication=None, verbose=True)
+2022-12-16 19:07:03,593:INFO:Initializing load_model()
+2022-12-16 19:07:03,593:INFO:load_model(model_name=./models/USDCHF, platform=None, authentication=None, verbose=True)
+2022-12-16 19:07:03,597:INFO:Initializing load_model()
+2022-12-16 19:07:03,597:INFO:load_model(model_name=./models/USDHKD, platform=None, authentication=None, verbose=True)
+2022-12-16 19:07:03,601:INFO:Initializing load_model()
+2022-12-16 19:07:03,601:INFO:load_model(model_name=./models/USDAUD, platform=None, authentication=None, verbose=True)
+2022-12-16 19:07:03,605:INFO:Initializing load_model()
+2022-12-16 19:07:03,605:INFO:load_model(model_name=./models/USDNZD, platform=None, authentication=None, verbose=True)
+2022-12-16 19:07:03,609:INFO:Initializing load_model()
+2022-12-16 19:07:03,609:INFO:load_model(model_name=./models/USDSGD, platform=None, authentication=None, verbose=True)
+2022-12-16 19:07:03,746:INFO:Initializing predict_model()
+2022-12-16 19:07:03,746:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ElasticNet(alpha=9.94, fit_intercept=False, l1_ratio=0.155,
+                            normalize=True, random_state=5621)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 19:07:03,746:INFO:Checking exceptions
+2022-12-16 19:07:03,746:INFO:Preloading libraries
+2022-12-16 19:07:04,030:INFO:Initializing predict_model()
+2022-12-16 19:07:04,030:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LassoLars(eps=1e-05, fit_intercept=False, normalize=False,
+                           random_state=7575)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 19:07:04,030:INFO:Checking exceptions
+2022-12-16 19:07:04,031:INFO:Preloading libraries
+2022-12-16 19:07:04,151:INFO:Initializing predict_model()
+2022-12-16 19:07:04,151:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(metric='euclidean', n_jobs=-1,
+                                     n_neighbors=8)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 19:07:04,151:INFO:Checking exceptions
+2022-12-16 19:07:04,151:INFO:Preloading libraries
+2022-12-16 19:07:04,416:INFO:Initializing predict_model()
+2022-12-16 19:07:04,417:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(n_jobs=-1, n_neighbors=46)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 19:07:04,417:INFO:Checking exceptions
+2022-12-16 19:07:04,417:INFO:Preloading libraries
+2022-12-16 19:07:04,666:INFO:Initializing predict_model()
+2022-12-16 19:07:04,666:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('scaling', 'passthrough'), ('P_transform', 'passthrough'),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', HuberRegressor()]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 19:07:04,666:INFO:Checking exceptions
+2022-12-16 19:07:04,666:INFO:Preloading libraries
+2022-12-16 19:07:04,779:INFO:Initializing predict_model()
+2022-12-16 19:07:04,779:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 19:07:04,779:INFO:Checking exceptions
+2022-12-16 19:07:04,779:INFO:Preloading libraries
+2022-12-16 19:07:04,887:INFO:Initializing predict_model()
+2022-12-16 19:07:04,887:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1.4, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 19:07:04,887:INFO:Checking exceptions
+2022-12-16 19:07:04,887:INFO:Preloading libraries
+2022-12-16 20:23:00,944:INFO:Initializing load_model()
+2022-12-16 20:23:00,944:INFO:load_model(model_name=./models/EURUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 20:23:00,949:INFO:Initializing load_model()
+2022-12-16 20:23:00,949:INFO:load_model(model_name=./models/GBPUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 20:23:00,952:INFO:Initializing load_model()
+2022-12-16 20:23:00,952:INFO:load_model(model_name=./models/USDCAD, platform=None, authentication=None, verbose=True)
+2022-12-16 20:23:00,957:INFO:Initializing load_model()
+2022-12-16 20:23:00,957:INFO:load_model(model_name=./models/USDCHF, platform=None, authentication=None, verbose=True)
+2022-12-16 20:23:00,960:INFO:Initializing load_model()
+2022-12-16 20:23:00,960:INFO:load_model(model_name=./models/USDHKD, platform=None, authentication=None, verbose=True)
+2022-12-16 20:23:00,964:INFO:Initializing load_model()
+2022-12-16 20:23:00,965:INFO:load_model(model_name=./models/USDAUD, platform=None, authentication=None, verbose=True)
+2022-12-16 20:23:00,968:INFO:Initializing load_model()
+2022-12-16 20:23:00,968:INFO:load_model(model_name=./models/USDNZD, platform=None, authentication=None, verbose=True)
+2022-12-16 20:23:00,972:INFO:Initializing load_model()
+2022-12-16 20:23:00,972:INFO:load_model(model_name=./models/USDSGD, platform=None, authentication=None, verbose=True)
+2022-12-16 20:23:01,001:INFO:Initializing predict_model()
+2022-12-16 20:23:01,002:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ElasticNet(alpha=9.94, fit_intercept=False, l1_ratio=0.155,
+                            normalize=True, random_state=5621)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 20:23:01,002:INFO:Checking exceptions
+2022-12-16 20:23:01,002:INFO:Preloading libraries
+2022-12-16 20:23:01,169:INFO:Initializing predict_model()
+2022-12-16 20:23:01,169:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LassoLars(eps=1e-05, fit_intercept=False, normalize=False,
+                           random_state=7575)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 20:23:01,169:INFO:Checking exceptions
+2022-12-16 20:23:01,169:INFO:Preloading libraries
+2022-12-16 20:23:01,289:INFO:Initializing predict_model()
+2022-12-16 20:23:01,289:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(metric='euclidean', n_jobs=-1,
+                                     n_neighbors=8)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 20:23:01,289:INFO:Checking exceptions
+2022-12-16 20:23:01,289:INFO:Preloading libraries
+2022-12-16 20:23:01,517:INFO:Initializing predict_model()
+2022-12-16 20:23:01,518:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(n_jobs=-1, n_neighbors=46)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 20:23:01,518:INFO:Checking exceptions
+2022-12-16 20:23:01,518:INFO:Preloading libraries
+2022-12-16 20:23:01,756:INFO:Initializing predict_model()
+2022-12-16 20:23:01,756:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('scaling', 'passthrough'), ('P_transform', 'passthrough'),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', HuberRegressor()]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 20:23:01,756:INFO:Checking exceptions
+2022-12-16 20:23:01,756:INFO:Preloading libraries
+2022-12-16 20:23:01,873:INFO:Initializing predict_model()
+2022-12-16 20:23:01,873:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 20:23:01,873:INFO:Checking exceptions
+2022-12-16 20:23:01,873:INFO:Preloading libraries
+2022-12-16 20:23:02,008:INFO:Initializing predict_model()
+2022-12-16 20:23:02,008:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1.4, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 20:23:02,008:INFO:Checking exceptions
+2022-12-16 20:23:02,008:INFO:Preloading libraries
+2022-12-16 21:41:12,433:INFO:Initializing load_model()
+2022-12-16 21:41:12,434:INFO:load_model(model_name=./models/EURUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 21:41:12,445:INFO:Initializing load_model()
+2022-12-16 21:41:12,445:INFO:load_model(model_name=./models/GBPUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 21:41:12,452:INFO:Initializing load_model()
+2022-12-16 21:41:12,453:INFO:load_model(model_name=./models/USDCAD, platform=None, authentication=None, verbose=True)
+2022-12-16 21:41:12,459:INFO:Initializing load_model()
+2022-12-16 21:41:12,459:INFO:load_model(model_name=./models/USDCHF, platform=None, authentication=None, verbose=True)
+2022-12-16 21:41:12,466:INFO:Initializing load_model()
+2022-12-16 21:41:12,467:INFO:load_model(model_name=./models/USDHKD, platform=None, authentication=None, verbose=True)
+2022-12-16 21:41:12,474:INFO:Initializing load_model()
+2022-12-16 21:41:12,475:INFO:load_model(model_name=./models/USDAUD, platform=None, authentication=None, verbose=True)
+2022-12-16 21:41:12,482:INFO:Initializing load_model()
+2022-12-16 21:41:12,482:INFO:load_model(model_name=./models/USDNZD, platform=None, authentication=None, verbose=True)
+2022-12-16 21:41:12,489:INFO:Initializing load_model()
+2022-12-16 21:41:12,489:INFO:load_model(model_name=./models/USDSGD, platform=None, authentication=None, verbose=True)
+2022-12-16 21:41:12,523:INFO:Initializing predict_model()
+2022-12-16 21:41:12,523:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ElasticNet(alpha=9.94, fit_intercept=False, l1_ratio=0.155,
+                            normalize=True, random_state=5621)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 21:41:12,523:INFO:Checking exceptions
+2022-12-16 21:41:12,523:INFO:Preloading libraries
+2022-12-16 21:41:12,691:INFO:Initializing predict_model()
+2022-12-16 21:41:12,691:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LassoLars(eps=1e-05, fit_intercept=False, normalize=False,
+                           random_state=7575)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 21:41:12,691:INFO:Checking exceptions
+2022-12-16 21:41:12,691:INFO:Preloading libraries
+2022-12-16 21:41:12,806:INFO:Initializing predict_model()
+2022-12-16 21:41:12,806:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(metric='euclidean', n_jobs=-1,
+                                     n_neighbors=8)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 21:41:12,806:INFO:Checking exceptions
+2022-12-16 21:41:12,806:INFO:Preloading libraries
+2022-12-16 21:41:13,048:INFO:Initializing predict_model()
+2022-12-16 21:41:13,048:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(n_jobs=-1, n_neighbors=46)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 21:41:13,048:INFO:Checking exceptions
+2022-12-16 21:41:13,048:INFO:Preloading libraries
+2022-12-16 21:41:13,291:INFO:Initializing predict_model()
+2022-12-16 21:41:13,291:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('scaling', 'passthrough'), ('P_transform', 'passthrough'),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', HuberRegressor()]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 21:41:13,291:INFO:Checking exceptions
+2022-12-16 21:41:13,291:INFO:Preloading libraries
+2022-12-16 21:41:13,400:INFO:Initializing predict_model()
+2022-12-16 21:41:13,400:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 21:41:13,400:INFO:Checking exceptions
+2022-12-16 21:41:13,400:INFO:Preloading libraries
+2022-12-16 21:41:13,505:INFO:Initializing predict_model()
+2022-12-16 21:41:13,505:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1.4, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 21:41:13,505:INFO:Checking exceptions
+2022-12-16 21:41:13,505:INFO:Preloading libraries
+2022-12-16 22:58:18,369:INFO:Initializing load_model()
+2022-12-16 22:58:18,379:INFO:load_model(model_name=./models/EURUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 22:58:18,432:INFO:Initializing load_model()
+2022-12-16 22:58:18,433:INFO:load_model(model_name=./models/GBPUSD, platform=None, authentication=None, verbose=True)
+2022-12-16 22:58:18,439:INFO:Initializing load_model()
+2022-12-16 22:58:18,439:INFO:load_model(model_name=./models/USDCAD, platform=None, authentication=None, verbose=True)
+2022-12-16 22:58:18,446:INFO:Initializing load_model()
+2022-12-16 22:58:18,446:INFO:load_model(model_name=./models/USDCHF, platform=None, authentication=None, verbose=True)
+2022-12-16 22:58:18,451:INFO:Initializing load_model()
+2022-12-16 22:58:18,452:INFO:load_model(model_name=./models/USDHKD, platform=None, authentication=None, verbose=True)
+2022-12-16 22:58:18,456:INFO:Initializing load_model()
+2022-12-16 22:58:18,456:INFO:load_model(model_name=./models/USDAUD, platform=None, authentication=None, verbose=True)
+2022-12-16 22:58:18,461:INFO:Initializing load_model()
+2022-12-16 22:58:18,461:INFO:load_model(model_name=./models/USDNZD, platform=None, authentication=None, verbose=True)
+2022-12-16 22:58:18,465:INFO:Initializing load_model()
+2022-12-16 22:58:18,465:INFO:load_model(model_name=./models/USDSGD, platform=None, authentication=None, verbose=True)
+2022-12-16 22:58:18,610:INFO:Initializing predict_model()
+2022-12-16 22:58:18,610:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ElasticNet(alpha=9.94, fit_intercept=False, l1_ratio=0.155,
+                            normalize=True, random_state=5621)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 22:58:18,610:INFO:Checking exceptions
+2022-12-16 22:58:18,610:INFO:Preloading libraries
+2022-12-16 22:58:18,936:INFO:Initializing predict_model()
+2022-12-16 22:58:18,936:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LassoLars(eps=1e-05, fit_intercept=False, normalize=False,
+                           random_state=7575)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 22:58:18,937:INFO:Checking exceptions
+2022-12-16 22:58:18,937:INFO:Preloading libraries
+2022-12-16 22:58:19,075:INFO:Initializing predict_model()
+2022-12-16 22:58:19,076:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(metric='euclidean', n_jobs=-1,
+                                     n_neighbors=8)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 22:58:19,076:INFO:Checking exceptions
+2022-12-16 22:58:19,076:INFO:Preloading libraries
+2022-12-16 22:58:19,329:INFO:Initializing predict_model()
+2022-12-16 22:58:19,329:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KNeighborsRegressor(n_jobs=-1, n_neighbors=46)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 22:58:19,329:INFO:Checking exceptions
+2022-12-16 22:58:19,329:INFO:Preloading libraries
+2022-12-16 22:58:19,591:INFO:Initializing predict_model()
+2022-12-16 22:58:19,591:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('scaling', 'passthrough'), ('P_transform', 'passthrough'),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', HuberRegressor()]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 22:58:19,592:INFO:Checking exceptions
+2022-12-16 22:58:19,592:INFO:Preloading libraries
+2022-12-16 22:58:19,734:INFO:Initializing predict_model()
+2022-12-16 22:58:19,734:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 22:58:19,734:INFO:Checking exceptions
+2022-12-16 22:58:19,734:INFO:Preloading libraries
+2022-12-16 22:58:19,866:INFO:Initializing predict_model()
+2022-12-16 22:58:19,866:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='return_val')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targ...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='return_val')),
+                ('fix_perfect', Remove_100(target='return_val')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 HuberRegressor(alpha=0.7, epsilon=1.4, fit_intercept=False)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-12-16 22:58:19,866:INFO:Checking exceptions
+2022-12-16 22:58:19,866:INFO:Preloading libraries
